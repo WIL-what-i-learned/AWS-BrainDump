@@ -7,34 +7,10 @@
 	- `nslookup` 👉 `nslookup <url>`
 	- `dig` 👉 `dig <url>`
 - Automatically performs health checks on resources
-## Records
-	- `A` : IPv4
-	- `AAAA` : IPv6
-	- `CNAME` : hostname to hostname
-		- 🚨 only works for nonROOT domains (ex: something.mydomain.com)
-	- `Alias` : hostname to AWS service
-		- work for ROOT and nonRoot domains (app.mydomain.com 👉 blabla.amazonaws.com)
-		- free
-		- have native health checks
 
-## Routing Policy
 
-> additional load balancing through RT53
 
-- Simple 👉 used to redirect to a single resource
-- Weighted
-	- test 1% of traffic on new website
-	- split traffic between two reagions
-	- can be associated with Health Checks
-- Latency Based
-	- evaluated in terms of user to designated AWS Region
-- Failover
-- GeoLocation 👉 based on user location
-- GeoProximity
-	- set bias
-	- shifting traffic from one region to another
-- Multi Value Routing
-
+-----
 
 ## Time to Live
 

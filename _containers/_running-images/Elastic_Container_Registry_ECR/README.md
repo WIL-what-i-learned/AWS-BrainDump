@@ -1,4 +1,5 @@
 # Elastic Container Registry (ECR)
+_competitor: DockerHub_
 
 > amazon version of Dockerhub
 

@@ -2,6 +2,13 @@
 
 > allows you to deploy web application and web services to AWS
 
+
+- ??
+	- single container uses `Dockerfile` or `Dockerrun.aws.json` (if your pulling a remote image)
+	- Multi-Container uses `Dockerrun.aws.json`
+
+------
+
 - orchestration service that provisions resources
 - automatically handles the deployment
 - monitors application health via a health dashboard
