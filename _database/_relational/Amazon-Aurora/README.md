@@ -1,5 +1,15 @@
 # Amazon Aurora
 
+
+## Database Cluster
+    
+- one or more DB Instances AND a cluster volume
+- DB Instance Types:
+    - Primary DB Instance
+    - Aurora Replica
+
+----
+
 - Compatible with
     - MySQL
     - PostgreSQL

@@ -1,14 +1,44 @@
-# Relational Database Service (RDB)
+# Relational Database Service (RDB) _managed service_
 
 > AWS MANAGED DB service for SQL databases
 
-- supported
-	- Postgres
-	- MySQL
-	- MariaDB
-	- Oracle
-	- Microsoft SQL Server
-	- Aurora (AWS Proprietary DB)
+- Managed Tasks (what you don't have to deal with)
+	- provisioning
+	- patching
+	- backup
+	- recovery
+	- failure detection
+	- repair
+
+- Does not provide shell access to the underlying DB (as it is a managed resource and AWS owns it)
+## Compatable Databases Engines
+
+- Postgres
+- MySQL
+- MariaDB
+- Oracle
+- Microsoft SQL Server
+- Aurora (AWS Proprietary DB)
+
+## Config
+
+- Database Engine
+- License Model
+- DB Engine Version
+- DB Instance Class
+- Multi-AZ Deployment
+- Storage Type & Size
+- Backups
+- Monitoring
+- Maitenance Window
+
+
+
+
+
+-----
+
+
 - high availbility & fault tolerance using Multi-AZ deployment option
 - launch read replicas across Regions in order to provide enhanced performance and durability
 ## Backups
