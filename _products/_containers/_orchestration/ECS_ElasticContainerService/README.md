@@ -10,6 +10,11 @@
 | Cluster autoscaler            | Capacity provider scaling     |  
 
 
+## Launch Types
+
+- [EC2](../../../_compute/EC2_ElasticComputeCloud/README.md)
+- Fargate
+
 ## Notes
 
 - LOGGING: integrated with `CloudWatch` out of the box
