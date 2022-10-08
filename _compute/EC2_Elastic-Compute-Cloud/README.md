@@ -1,4 +1,4 @@
-# ELASTIC CLOUD COMPUTE (EC2)
+# Elastic Cloud Compute (EC2)
 
 > Infrastructure (Virtual Machines / Servers) as a Service
 > Pay as you go (hour || second)
